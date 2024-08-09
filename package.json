@@ -1,0 +1,39 @@
+{
+    "name": "enhance-app",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "enhance dev",
+        "lint": "eslint ./app/**/*.mjs --fix",
+        "enhance": "enhance"
+    },
+    "dependencies": {
+        "@enhance/arc-plugin-enhance": "^11.0.0",
+        "@enhance/arc-plugin-styles": "^5.0.5",
+        "@enhance/custom-element": "^1.2.4",
+        "@enhance/form-elements": "^1.1.2",
+        "@enhance/styles-cribsheet": "^0.0.11",
+        "slugify": "^1.6.6"
+    },
+    "devDependencies": {
+        "@enhance/cli": "latest",
+        "@enhance/types": "^0.6.1",
+        "eslint": "^8.49.0"
+    },
+    "eslintConfig": {
+        "env": {
+            "node": true
+        },
+        "extends": "eslint:recommended",
+        "rules": {
+            "indent": [
+                "error",
+                2
+            ]
+        },
+        "ignorePatterns": [],
+        "parserOptions": {
+            "sourceType": "module",
+            "ecmaVersion": 2022
+        }
+    }
+}
