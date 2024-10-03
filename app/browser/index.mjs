@@ -1,3 +1,3 @@
-import ArticleEditForm from '../components/article-edit-form.mjs'
+import HelloComponent from '../components/hello-component.mjs'
 
-export { ArticleEditForm }
+export { HelloComponent }
